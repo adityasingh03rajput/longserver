@@ -1,7 +1,7 @@
 # File: animesh.py (Client sending signals)
 import socket
 
-HOST = 'IP_OF_BADERIA'  # Replace with server's IP (e.g., Indore server)
+HOST = input('IP_OF_BADERIA :')  # Replace with server's IP (e.g., Indore server)
 PORT = 65432
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
